@@ -24,22 +24,26 @@ const HealthAwareness = () => {
     {
       title: "Healthy Eating",
       description: "Choose whole foods, fruits, and vegetables. Limit processed foods and sugary drinks.",
-      tips: ["Eat 5 servings of fruits/vegetables daily", "Choose whole grains", "Stay hydrated"]
+      tips: ["Eat 5 servings of fruits/vegetables daily", "Choose whole grains", "Stay hydrated"],
+      video: "https://www.youtube.com/watch?v=XMcab1MFaLc"
     },
     {
       title: "Regular Check-ups",
       description: "Regular medical check-ups help prevent health issues before they become serious.",
-      tips: ["Annual physical examination", "Dental check-ups every 6 months", "Keep vaccinations up to date"]
+      tips: ["Annual physical examination", "Dental check-ups every 6 months", "Keep vaccinations up to date"],
+      video: "https://www.youtube.com/watch?v=bBNsbvUiL0A"
     },
     {
       title: "Quality Sleep",
       description: "Good sleep is crucial for physical and mental well-being.",
-      tips: ["Aim for 7-9 hours nightly", "Maintain consistent sleep schedule", "Create a relaxing bedtime routine"]
+      tips: ["Aim for 7-9 hours nightly", "Maintain consistent sleep schedule", "Create a relaxing bedtime routine"],
+      video: "https://www.youtube.com/watch?v=oPryNy0bUDU"
     },
     {
       title: "Physical Activity",
       description: "Regular exercise improves health and reduces risk of diseases.",
-      tips: ["30 minutes daily exercise", "Take walking breaks", "Find activities you enjoy"]
+      tips: ["30 minutes daily exercise", "Take walking breaks", "Find activities you enjoy"],
+      video: "https://www.youtube.com/watch?v=IT94xC35u6k&t=170s"
     }
   ];
 
@@ -124,7 +128,8 @@ const HealthAwareness = () => {
           {contributions.map((item, index) => (
             <div key={index} className="contribution">
               <h3>{item.title}</h3>
-              <p>{item.description}</p>
+              <p>{item.description}</p> 
+              <a href={item.video} target="_blank">Watch video</a>
               <ul>
                 {item.tips.map((tip, i) => (
                   <li key={i}>{tip}</li>

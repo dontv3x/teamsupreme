@@ -118,6 +118,20 @@
   gap: 0.5rem;
   color: #008000;
 }
+.contribution a{
+  background-color: #4CAF50; /* Green background */
+  color: white;              /* White text */
+  padding: 15px 12px;        /* Padding around text */
+  text-align: center;        /* Center text */
+  text-decoration: none;     /* Remove underline from link */
+  display: inline-block;     /* Make the button behave like a link */
+  font-size: 16px;           /* Text size */
+  border-radius: 8px;        /* Rounded corners */
+  cursor: pointer;          /* Cursor pointer on hover */
+}
+.contribution a:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
 
 /* Health Challenges Section */
 .challenge-section {

@@ -1,38 +1,190 @@
-.App {
+/* Container */
+.health-container {
+  max-width: 1200px;
+  background: #43ca43;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero {
   text-align: center;
+  margin-bottom: 2rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero div{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 80px;
+}
+.hero div div{
+  display: block;
+  align-items: start;
+}
+.hero div img{
+  width: 200px;
+  height: 200px;
+  margin-left:45px;
+}
+.hero div div h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.hero p {
+  font-size: 1.25rem;
+  color: #666;
 }
 
-.App-link {
-  color: #61dafb;
+/* SDG Goal Section */
+.sdg-goal {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.sdg-goal h2 {
+  color: #000000;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.sdg-goal p {
+  color: #555;
+  line-height: 1.6;
+}
+.sdg-goal .target,
+.sdg-goal .goal {
+  margin: 10px 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.sdg-goal .target {
+  background-color: #e6f7ff;
+  color: #43ca43;
+}
+.sdg-goal .goal {
+  background-color: #e6ffe6;
+  color: #008000;
+}
+.sdg-goal ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.sdg-goal li::before {
+  content: "• ";
+  color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Ways to Contribute Section */
+.contribute-section {
+  margin-bottom: 2rem;
+}
+.contribute-section h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.contribute-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.contribution {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.contribution:hover {
+  transform: translateY(-4px);
+}
+.contribution h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.contribution p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.contribution ul {
+  list-style: none;
+  padding-left: 0;
+}
+.contribution li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #008000;
+}
+
+/* Health Challenges Section */
+.challenge-section {
+  margin-bottom: 2rem;
+}
+.challenge-section h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.challenge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.challenge {
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.challenge:hover {
+  border-color: #0077cc;
+}
+.challenge.selected {
+  border-color: #0077cc;
+  background-color: #e6f7ff;
+}
+.challenge h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.challenge p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.challenge .info {
+  font-size: 0.9rem;
+}
+.challenge .info span {
+  font-weight: bold;
+}
+.challenge .info .difficulty {
+  color: #0077cc;
+}
+.challenge .info .impact {
+  color: #008000;
+}
+
+/* Proposal Section */
+.Proposal-section {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.Proposal-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.Proposal-section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
 }

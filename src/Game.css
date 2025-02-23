@@ -1,0 +1,84 @@
+.game {
+    width: 400px;
+    padding: 16px;
+    background: #f3f4f6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .game h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .game-button {
+    padding: 8px;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    background: white;
+    transition: border-color 0.3s ease-in-out;
+  }
+  .game-button:hover{
+    transform: scale(1.1);
+    transition-duration: 033.3s;
+  }
+  
+  .game-button img {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .game-button p {
+    font-size: 0.875rem;
+    margin-top: 8px;
+  }
+  
+  .game-button.selected {
+    border-color: #ef4444;
+  }
+  
+  .result-box {
+    margin-top: 16px;
+    padding: 8px;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-box p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .next-button {
+    margin-top: 16px;
+    padding: 10px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .next-button:hover {
+    background: #2563eb;
+  }
+  .footer {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem; 
+  }
+  

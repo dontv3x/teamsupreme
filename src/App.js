@@ -3,6 +3,7 @@ import logo from './profile.png';
 import sef from './sef.png';
 import './App.css';
 import Game from './Game';
+import CliniCheck from './CliniCheck.png';
 
 const HealthAwareness = () => {
   const [selectedChallenge, setSelectedChallenge] = useState(null);
@@ -164,19 +165,18 @@ const HealthAwareness = () => {
       </div>
       <div className="Proposal-section">
         <h2>What we are to present</h2>
-        <p>Quickdiagnose  is your personal health assistant, designed to help you understand your symptoms and make informed decisions about your well-being. Simply enter your symptoms, and our AI-powered system will analyze them to provide possible causes, risk levels, and recommended next steps.
+        <div className="imgClass"><img src={CliniCheck}></img></div>
+        <p>CliniCheck is your personal health assistant, designed to help you understand your symptoms and make informed decisions about your well-being. Simply enter your symptoms, and our AI-powered system will analyze them to provide possible causes, risk levels, and recommended next steps. </p>
 
-With an intuitive interface and medically-backed data, SymptomCheck+ helps users:
-✅ Identify potential conditions based on symptoms
-✅ Receive personalized health insights
-✅ Get recommendations for when to seek medical care
-✅ Track symptoms over time for better health management
-✅ Access reliable health resources and self-care tips
+        <p>With an intuitive interface and medically-backed data, CliniCheck helps users:</p>
+        <p>✅ Identify potential conditions based on symptoms</p>
+        <p>✅ Receive personalized health insights</p>
+        <p>✅ Get recommendations for when to seek medical care</p>
+        <p>✅ Track symptoms over time for better health management</p>
+        <p>✅ Access reliable health resources and self-care tips</p>
 
-🔹 Disclaimer:Quickdiagnose is not a substitute for professional medical advice. Always consult a doctor for serious concerns.
-
-Download now and take contr SymptomCheckol of your health! 💙🩺</p>
-          <Game />
+        <p>🔹 Disclaimer:CliniCheck is not a substitute for professional medical advice. Always consult a doctor for serious concerns.</p>
+          <div className="gameDiv"><Game /></div>
       </div>
 
       <footer className="footer">

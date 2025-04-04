@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/teamsupreme/static/css/main.ea1c4f7a.css",
-    "main.js": "/teamsupreme/static/js/main.e980a4ab.js",
+    "main.css": "/teamsupreme/static/css/main.c8fd1951.css",
+    "main.js": "/teamsupreme/static/js/main.cb309e53.js",
     "static/js/453.8a53b8d2.chunk.js": "/teamsupreme/static/js/453.8a53b8d2.chunk.js",
     "static/media/profile.png": "/teamsupreme/static/media/profile.12cdd71a216619b615db.png",
     "static/media/sef.png": "/teamsupreme/static/media/sef.919ee7d61c2992c2842b.png",
+    "static/media/CliniCheck.png": "/teamsupreme/static/media/CliniCheck.47ed64159eaa444ae2a8.png",
     "index.html": "/teamsupreme/index.html",
-    "main.ea1c4f7a.css.map": "/teamsupreme/static/css/main.ea1c4f7a.css.map",
-    "main.e980a4ab.js.map": "/teamsupreme/static/js/main.e980a4ab.js.map",
+    "main.c8fd1951.css.map": "/teamsupreme/static/css/main.c8fd1951.css.map",
+    "main.cb309e53.js.map": "/teamsupreme/static/js/main.cb309e53.js.map",
     "453.8a53b8d2.chunk.js.map": "/teamsupreme/static/js/453.8a53b8d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea1c4f7a.css",
-    "static/js/main.e980a4ab.js"
+    "static/css/main.c8fd1951.css",
+    "static/js/main.cb309e53.js"
   ]
 }

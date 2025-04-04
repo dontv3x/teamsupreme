@@ -164,10 +164,18 @@ const HealthAwareness = () => {
       </div>
       <div className="Proposal-section">
         <h2>What we are to present</h2>
-        <p> We hope to create a game where players take on the role of a young medical 
-          innovator tasked with improving healthcare in underserved communities. They would be tasked with
-          different quests which could range from aiding different communities, diagnosing illnesses or even
-          help preventing such. In the meantime enjoy this short minigame made by us.</p>
+        <p>Quickdiagnose  is your personal health assistant, designed to help you understand your symptoms and make informed decisions about your well-being. Simply enter your symptoms, and our AI-powered system will analyze them to provide possible causes, risk levels, and recommended next steps.
+
+With an intuitive interface and medically-backed data, SymptomCheck+ helps users:
+✅ Identify potential conditions based on symptoms
+✅ Receive personalized health insights
+✅ Get recommendations for when to seek medical care
+✅ Track symptoms over time for better health management
+✅ Access reliable health resources and self-care tips
+
+🔹 Disclaimer:Quickdiagnose is not a substitute for professional medical advice. Always consult a doctor for serious concerns.
+
+Download now and take contr SymptomCheckol of your health! 💙🩺</p>
           <Game />
       </div>
 
